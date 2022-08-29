@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    background: rgb(236, 235, 234);
+}
+
+.anhnen{
+    height:6in;
+    width: 14.5in;
+    margin-top: 30px;
+    margin-left: 55px;
+    border: 5px solid white;
+}
+
+h1{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 450px;
+    color: brown;
+}
+
+
+#phai > p{
+    display: block;
+    margin: 20px;
+}
+
+#main, #nen{
+    position: absolute;
+}
+
+.anh1{
+    height: 500px;
+    width: 350px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#trai,.mauxanh, .anh{
+    position: absolute;
+}
+
+.mauxanh{
+    width: 450px;
+    height: 450px;
+    background: #3a6c4e;
+    opacity: 0.5;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#nen{
+    display: flex;
+}
+
+#phai{
+    display: block;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+h4{
+    display: inline-block;
+    padding-bottom: 5px ;
+    font-family:  monospace;
+    font-size: larger;
+    color: rgb(66, 65, 65);
+}
+
+h2, p{
+    display: block;
+    padding: 7px 0px;
+}
+
+h2{
+    font-family:system-ui;
+}
+
+/* #icon{
+    display: flex;
+} */
+
+h3{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #fafaf9;
+    opacity: 1;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: 2px dashed rgb(102, 167, 99);
+   margin: 15px;
+}
+
+.icon2 h3, .icon3 h3, .icon4 h3{
+    padding: 13px;
+}
+
+.icon1, .icon2, .icon3, .icon4{
+    display: flex;
+} 
+
+.noidung1, .noidung2, .noidung3, .noidung4{
+    /* display: block;
+    flex-direction: row; */
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.trai1{
+    float:left;
+    margin-right: 80px;
+}
+
+.phai1{
+    float:right;
+}
+
+#icon{
+    display: block;
+    margin-top: 30px;
+}
+
+b,h6{
+    color: #4a9768;
+}
